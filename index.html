@@ -1,21 +1,78 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://app.cnbang.net/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>BlackSnow Apps</title>
-  <link rel="stylesheet" href="./images/font.css" type="text/css"><style>
-  	body{font-weight:100;font-family:proxima-nova,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:0;background:url(img/body_bg.jpg) #eee}
-    a{color:#c33;text-decoration:none}
-    a:hover{color:#000}
-    .wrapper{width:1000px;margin:0 auto;padding:0;height:800px;position:relative;}
-    img{padding:0;margin:0;}
-    .header{height:800px;padding:1px;background:url(img/body_bg.jpg) #eee}
-    h1{text-align:center;font-weight:100;margin:0;padding:280px 0 0}
-    h2{display:none;}
-    span.desc{font-size:20px;color:#777;text-align:center;font-weight:100;margin:0;padding:10px 0 0;display:block;}
-    .link{position:absolute;display:block;}
-    #tuner{background:#222327;}
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BlackSnow Apps</title>
+  <link rel="stylesheet" href="./images/font.css" type="text/css">
+  <style>
+    body {
+      font-weight: 100;
+      font-family: proxima-nova, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url(img/body_bg.jpg) #eee
+    }
+
+    a {
+      color: #c33;
+      text-decoration: none
+    }
+
+    a:hover {
+      color: #000
+    }
+
+    .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+      padding: 0;
+      height: 800px;
+      position: relative;
+    }
+
+    img {
+      padding: 0;
+      margin: 0;
+    }
+
+    .header {
+      height: 800px;
+      padding: 1px;
+      background: url(img/body_bg.jpg) #eee
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 100;
+      margin: 0;
+      padding: 280px 0 0
+    }
+
+    h2 {
+      display: none;
+    }
+
+    span.desc {
+      font-size: 20px;
+      color: #777;
+      text-align: center;
+      font-weight: 100;
+      margin: 0;
+      padding: 10px 0 0;
+      display: block;
+    }
+
+    .link {
+      position: absolute;
+      display: block;
+    }
+
+    #tuner {
+      background: #222327;
+    }
+
     /* #stockProfit{background:#9ab964;} */
     /* #xReminder{background:#566271;} */
     /* #xPomodoro{background:#eb7f61;} */
@@ -27,7 +84,13 @@
     /* #wifiKeyboard{background:#3686ad;} */
     /* #fitastic{background: #92b850;} */
 
-    #tuner .link{width:380px;height:120px;left:300px;top:80px;}
+    #tuner .link {
+      width: 380px;
+      height: 120px;
+      left: 300px;
+      top: 80px;
+    }
+
     /* #stockProfit .link{width:440px;height:90px;left:470px;top:120px;} */
     /* #xReminder .link{width:320px;height:100px;left:140px;top:115px;} */
     /* #xPomodoro .link{width:360px;height:100px;left:520px;top:170px;} */
@@ -38,29 +101,44 @@
     /* #blurWallpaper .link{width:380px;height:110px;left:500px;top:330px;} */
     /* #wifiKeyboard .link{width:480px;height:100px;left:80px;top:190px;} */
     /* #fitastic .link{width:480px;height:130px;left:480px;top:130px;} */
-    .qr{position:absolute;left:0;top:0;display:none;}
+    .qr {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+    }
 
-    .footer{padding:30px 0 15px;height:100px;overflow: hidden;}
-    .footer p{text-align:center}
-  </style><script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script><script type="text/javascript" charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script></head>
-  
-  
-  <body>
-    <div class="header">
-      <div class="wrapper">
-        <h1>BlackSnow Apps</h1>
-        <span class="desc">Simple and Professional Apps for iPhone</span>
-      </div>
+    .footer {
+      padding: 30px 0 15px;
+      height: 100px;
+      overflow: hidden;
+    }
+
+    .footer p {
+      text-align: center
+    }
+    </style>
+    <script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script>
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script>
+</head>
+
+
+<body>
+  <div class="header">
+    <div class="wrapper">
+      <h1>BlackSnow Apps</h1>
+      <span class="desc">Simple and Professional Apps for iPhone</span>
     </div>
-    <div id="tuner">
-      <div class="wrapper">
-          <h2>Private Calculator</h2>
-          <img src="./images/privateCal.png">
-          <a href="http://itunes.apple.com/us/app/private-calculator-file-hider/id646308208?mt=8" class="link" target="_blank" data-name="privateCal"></a>
-          <img src="./images/privateCal(1).png" class="qr">
-      </div>
+  </div>
+  <div id="tuner">
+    <div class="wrapper">
+      <h2>Guitar Tuner</h2>
+      <img src="./images/privateCal.png">
+      <a href="#" class="link" target="_blank" data-name="privateCal"></a>
+      <img src="./images/privateCal(1).png" class="qr">
     </div>
-    <!-- <div id="fitastic">
+  </div>
+  <!-- <div id="fitastic">
       <div class="wrapper">
           <h2>Fitastic</h2>
           <img src="./images/fitastic.png">
@@ -148,31 +226,34 @@
           <img src="./images/xDownloader(1).png" class="qr">
       </div>
     </div> -->
-    <div class="footer">
-      <div class="wrapper">
-        <p><a href="mailto:wubo9935@hotmail.com" class="support">Support</a> | <a href="http://blacksnow.fun/">About</a></p>
-        <p>© 2023 BlackSnow All rights reserved.</p>
-      </div>
+  <div class="footer">
+    <div class="wrapper">
+      <p><a href="mailto:wubo9935@hotmail.com" class="support">Support</a> | <a href="http://blacksnow.fun/">About</a>
+      </p>
+      <p>© 2023 BlackSnow All rights reserved.</p>
     </div>
-    <script src="./images/jquery.js"></script>
-    <script>
-      $('.link').mouseenter(function(){
-        var $this = $(this),
-            left = parseInt($this.css('left')),
-            top = parseInt($this.css('top'))
-            height = $this.height(),
-            width = $this.width()
-        if (!$this.siblings('.qr').length) {
-          $('<img src="img/qr/' + $this.data('name') + '.png" class="qr"/>').appendTo($this.parent())
-        }
-          
-        $this.siblings('.qr').stop().fadeIn().css({
-          'left': left + (width - 130)/2,
-          'top': top + height
-        })
-      }).mouseleave(function(){
-        $(this).siblings('.qr').stop().fadeOut()
+  </div>
+  <script src="./images/jquery.js"></script>
+  <script>
+    $('.link').mouseenter(function () {
+      var $this = $(this),
+        left = parseInt($this.css('left')),
+        top = parseInt($this.css('top'))
+      height = $this.height(),
+        width = $this.width()
+      if (!$this.siblings('.qr').length) {
+        $('<img src="img/qr/' + $this.data('name') + '.png" class="qr"/>').appendTo($this.parent())
+      }
+
+      $this.siblings('.qr').stop().fadeIn().css({
+        'left': left + (width - 130) / 2,
+        'top': top + height
       })
-    </script>
-  
-</body></html>
+    }).mouseleave(function () {
+      $(this).siblings('.qr').stop().fadeOut()
+    })
+  </script>
+
+</body>
+
+</html>
